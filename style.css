@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "bP";
+    src: url(RuckSack\ Light.otf);
+}
+@font-face {
+    font-family: "Pp";
+    src: url(Cocogoose\ Pro-trial.ttf);
+}
+@font-face {
+    font-family: "my";
+    src: url(TheStudentsTeacher-Regular.ttf);
+}
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Pt {
+    text-align: center;
+    font-size: 20pt;
+    font-family: bP;
+    font-weight: bold;
+}
+#Pb {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 40pt;
+    font-family: Pp;
+}
+#Pp {
+    text-align: center;
+    margin-top: -70px;
+    font-size: 35pt;
+    font-family: bP;
+    font-weight: bold;
+}
+/* .border {
+    border: 2px double black;
+} */
+.bar {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-top: -20px;
+}
+.bar:hover {
+    /* background-color: rgb(245, 184, 128); */
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+li:hover,#Pt:hover,#Pb:hover,#Pp:hover,#back:hover,#next:hover {
+    scale: 1.3;
+}
+a:hover {
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+}
+.welH {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: dimgray;
+    padding: 1px;
+    border: 1px solid black;
+}
+.welP {
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+.welH:hover{
+    background-color: rgb(194, 192, 192);
+    color: black;
+    border: 2px solid black;
+    font-size: 16pt;
+}
+.welP:hover{
+    color: black;
+}
+.introC {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+.introC p:hover {
+    /* background-color: rgb(90, 90, 90); */
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.introC p {
+    font-size: 15pt;
+    color: #2c2c2c;
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 1.5em;
+    padding: 2px;
+}
+.fbooks {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+img {
+    display: inline-block;
+    width: 200px;
+    height: 270px;
+    margin: 8px;
+    
+}
+#next,#back {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 130px ;
+}
+img:hover {
+    scale: 1.1;
+}
+.bn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#bn {
+   word-spacing: 140px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+#bn:hover {
+    scale: 1.1;
+    color: rgb(56, 56, 5);
+}
+
+#cat1 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+#cat1 {
+    width: 55%;
+}
+#cat1 th {
+    text-align: center;
+    font-size: 13pt;
+    padding: 15px;
+    color: black;
+    background-color: #cfcfcb;
+    border: 1px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    cursor: pointer;
+}
+#cat1 th:hover {
+    border: 2px solid black;
+    font-size: 18pt;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.top-icon {
+    display: block;
+    margin: 0 auto;
+}

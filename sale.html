@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Buy Books</title>
+   <link rel="stylesheet" href="style.css">
+
+   <style>
+  #tbooks {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+#tbooks {
+   margin-top: -50px;
+}
+#tbooks td {
+    text-align: center;
+    padding: 35px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tbooks td #tafP,#tbooks td #hadP,#tbooks td #fiqP {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 12pt;
+   color: rgb(0, 0, 0);
+   padding: 5px;
+   font-weight: bolder;
+} 
+
+#tbooks td #tafP:hover,#tbooks td #hadP:hover,#tbooks td #fiqP:hover {
+   font-size: 14pt;
+   margin-right: -20%;
+   margin-left: -20%;
+}
+
+
+#tbooks td button {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 12pt; 
+   font-weight: 600; 
+   background-color: #aa2b22;
+   margin-top: 10px;
+   width: 50%;
+   padding: 5px;
+   color: #f8f8da;
+   border: 1px solid rgb(58, 4, 4);
+   cursor: pointer;
+}
+
+
+hr{
+   width: 50%;
+}
+
+#button:hover,
+#tbooks td #ybutton:hover,
+#tbooks td #gbutton:hover {
+   font-size: 18pt;
+   background-color: #fafafa;
+   color: black;
+   border: 2px solid black;
+}
+#tbooks td #ybutton {
+   background-color: #f3e038;
+   color: black;
+}
+#tbooks td #gbutton {
+   background-color: #2a8ba3;
+}
+
+#tbooks td img:hover {
+   box-shadow: 5px 5px 5px #292901;
+}
+.CatP1 {
+    color: #313030;
+    text-align: center;
+    /* margin-left: 260px; */
+    background-color: #fafadc;
+    border: 1px solid black;
+    /* width: 30%; */
+    padding: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+   </style>
+   
+</head>
+
+<body>
+<header id="topofpage">
+<p id="Pt">THE</p>
+<p id="Pb">BOOKS</p>
+<p id="Pp">PROVIDER</p>
+
+<div class="bar">
+<ul>
+<li><a href="./index.html">HOME</a></li>
+<li><a href="./sale.html">FOR SALE</a></li>
+<li><a href="./download.html">DOWNLOAD</a></li>
+<li><a href="./about.html">ABOUT</a></li>
+<li><a href="./contact.html">CONTACT</a></li>
+</ul>
+</div>
+</header>
+
+<div class="welH">
+<p class="welP">BOOKS CATEGORY</p>
+</div>
+   
+   <table id="cat1">
+   <tr>
+   <th><a href="#tafseer">TAFSEER</a></th>
+   <th><a href="#hadees">HADEES</a></th>
+   <th><a href="#fiqh">FIQH</a></th>
+   </tr>
+   <tr>
+   <th>MANTIQ</th>
+   <th>BALAGHAT</th>
+   <th>FALSAFA</th>
+   </tr>
+   </table>
+   <br><br>
+   <hr>
+   <br>
+   <div class="welH">
+    <p class="welP">TAFSEER BOOKS</p>
+    </div>
+   <table id="tbooks">
+   
+   <tr>
+   <td><p id="tafP">Tibyan-ul-Quraan</p><img src="t11.jpg" alt=""><button id="button">BUY NOW</button></td>
+   <td><p id="tafP">Tibyan-ul-Quraan</p><img src="t11.jpg" alt=""><button id="button">BUY NOW</button></td>
+   </tr>
+   </table>
+
+   <table id="tbooks">
+      <div class="welH">
+    <p class="welP">HADEES BOOKS</p>
+    </div>
+   <tr>
+   <td><p id="hadP">Sahih-Bukhari</p><img src="hadees.png" alt="" width="200px" height="270px"><button id="ybutton">BUY NOW</button></td>
+   <td><p id="hadP">Sahih-Bukhari</p><img src="hadees.png" alt="" width="200px" height="270px"><button id="ybutton">BUY NOW</button></td>
+   </tr>
+   </table>
+
+   <table id="tbooks">
+    <div class="welH">
+        <p class="welP">FIQH BOOKS</p>
+        </div>
+   <tr>
+   <td><p id="fiqP">AL-Hidaya P1</p><img src="fiqh1.jpg" alt="" width="200px" height="270px"><button id="gbutton">BUY NOW</button></td>
+   <td><p id="fiqP">AL-Hidaya P1</p><img src="fiqh1.jpg" alt="" width="200px" height="270px"><button id="gbutton">BUY NOW</button></td>
+   </tr>
+   </table>
+   <br>
+   <a href="#topofpage"><img src="up-arrow.png" alt="top-Icon" class="top-icon" style="width: 50px; height: 50px;"></a>
+   <br>
+   </body>
+   </html>
